@@ -1,0 +1,49 @@
+run,scenario,question,mode,answer,expected_answer,interp_jira,expected_interp_jira,impl_jira,expected_impl_jira,impl_pr,expected_impl_pr,score,pass
+1,1,What is the capital of France?,"<bound method Series.mode of scenario                                        1
+question           What is the capital of France?
+mode                                         text
+expected_answer                             Paris
+interp_jira                    [INT-123, INT-124]
+impl_jira                      [IMP-456, IMP-457]
+impl_pr                          [PR-789, PR-790]
+Name: 0, dtype: object>",<DUMMY>,Paris,INT-000,INT-123;INT-124,IMP-000,IMP-456;IMP-457,PR-000,PR-789;PR-790,0.0,False
+1,2,Sum of 2 and 2?,"<bound method Series.mode of scenario                         2
+question           Sum of 2 and 2?
+mode                          text
+expected_answer                  4
+interp_jira              [INT-125]
+impl_jira                [IMP-458]
+impl_pr                   [PR-791]
+Name: 1, dtype: object>",<DUMMY>,4,INT-000,INT-125,IMP-000,IMP-458,PR-000,PR-791,0.0,False
+2,1,What is the capital of France?,"<bound method Series.mode of scenario                                        1
+question           What is the capital of France?
+mode                                         text
+expected_answer                             Paris
+interp_jira                    [INT-123, INT-124]
+impl_jira                      [IMP-456, IMP-457]
+impl_pr                          [PR-789, PR-790]
+Name: 0, dtype: object>",<DUMMY>,Paris,INT-000,INT-123;INT-124,IMP-000,IMP-456;IMP-457,PR-000,PR-789;PR-790,0.0,False
+2,2,Sum of 2 and 2?,"<bound method Series.mode of scenario                         2
+question           Sum of 2 and 2?
+mode                          text
+expected_answer                  4
+interp_jira              [INT-125]
+impl_jira                [IMP-458]
+impl_pr                   [PR-791]
+Name: 1, dtype: object>",<DUMMY>,4,INT-000,INT-125,IMP-000,IMP-458,PR-000,PR-791,0.0,False
+3,1,What is the capital of France?,"<bound method Series.mode of scenario                                        1
+question           What is the capital of France?
+mode                                         text
+expected_answer                             Paris
+interp_jira                    [INT-123, INT-124]
+impl_jira                      [IMP-456, IMP-457]
+impl_pr                          [PR-789, PR-790]
+Name: 0, dtype: object>",<DUMMY>,Paris,INT-000,INT-123;INT-124,IMP-000,IMP-456;IMP-457,PR-000,PR-789;PR-790,0.0,False
+3,2,Sum of 2 and 2?,"<bound method Series.mode of scenario                         2
+question           Sum of 2 and 2?
+mode                          text
+expected_answer                  4
+interp_jira              [INT-125]
+impl_jira                [IMP-458]
+impl_pr                   [PR-791]
+Name: 1, dtype: object>",<DUMMY>,4,INT-000,INT-125,IMP-000,IMP-458,PR-000,PR-791,0.0,False

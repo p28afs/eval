@@ -1,0 +1,3 @@
+run,scenario,question,mode,answer,expected_answer,interp_jira,expected_interp_jira,impl_jira,expected_impl_jira,impl_pr,expected_impl_pr,score,pass
+1,1,"What is the capital of France?","text","Paris","Paris","INT-123;INT-124","INT-123;INT-124","IMP-456;IMP-457","IMP-456;IMP-457","PR-789;PR-790","PR-789;PR-790",0.99,True
+1,2,"Sum of 2 and 2?","text","3","4","INT-125","INT-125","IMP-458","IMP-458","PR-791","PR-791",0.65,False
