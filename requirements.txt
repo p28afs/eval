@@ -1,0 +1,7 @@
+streamlit
+pandas
+httpx
+asyncio
+python-dateutil
+nest_asyncio
+matplotlib
